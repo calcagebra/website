@@ -100,8 +100,8 @@ ${result}`;
 			<p class="py-6 animate-slidein [--slidein-delay:500ms] opacity-0">
 				Programming language for evaluating mathematical expressions.
 			</p>
-			<button class="btn btn-primary animate-slidein [--slidein-delay:700ms] opacity-0"
-				>Get Started</button
+			<a href="/guide" class="btn btn-primary animate-slidein [--slidein-delay:700ms] opacity-0"
+				>Get Started</a
 			>
 			<button
 				class="btn btn-secondary animate-slidein [--slidein-delay:700ms] opacity-0"

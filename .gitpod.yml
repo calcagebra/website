@@ -1,0 +1,9 @@
+tasks:
+  - before: corepack enable
+    init: yarn
+    command: yarn dev
+
+ports:
+  - name: Website
+    port: 5173
+    onOpen: notify
