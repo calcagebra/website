@@ -29,7 +29,7 @@
 					<input type="radio" name="my_tabs_2" role="tab" class="tab" aria-label="Linux" checked />
 					<div role="tabpanel" class="tab-content bg-base-100 border-base-300 rounded-box p-6">
 						<span inert class="pr-2">$</span>curl --proto '=https' --tlsv1.2 -sSf
-						https://github.com/megatank58/calcagebra/releases/latest/download/calcagebra-darwin -o
+						https://github.com/megatank58/calcagebra/releases/latest/download/calcagebra -o
 						calcagebra
 					</div>
 				</div>
