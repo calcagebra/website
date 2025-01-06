@@ -48,7 +48,7 @@ print(f\`)
 `;
 
 	let c3 = `
-f x = x
+f x = x^2
 
 graph(f)`;
 
@@ -70,6 +70,7 @@ graph(f)`;
 			`${document.getElementById('code').value.split('# OUTPUT:')[0].trim()}
 
 # OUTPUT:
+# ANYTHING BELOW THIS LINE IS ALWAYS IGNORED, YOU DO NOT NEED TO REMOVE ANYTHING
 ${result}`;
 	}
 </script>
@@ -103,14 +104,9 @@ ${result}`;
 			<a href="/guide" class="btn btn-primary animate-slidein [--slidein-delay:700ms] opacity-0"
 				>Get Started</a
 			>
-			<button
-				class="btn btn-secondary animate-slidein [--slidein-delay:700ms] opacity-0"
-				on:click={() => {
-					document.getElementById('timeline').scrollIntoView({
-						behavior: 'smooth',
-						block: 'start'
-					});
-				}}>Learn more</button
+			<a
+				href="/playground"
+				class="btn btn-secondary animate-slidein [--slidein-delay:700ms] opacity-0">Playground</a
 			>
 		</div>
 	</div>
